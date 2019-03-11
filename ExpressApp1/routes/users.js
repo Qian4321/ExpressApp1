@@ -1,6 +1,6 @@
-﻿'use strict';
-var express = require('express');
-var router = express.Router();
+'use strict';
+let express = require('express');
+let router = express.Router();
 
 /* GET users listing. */
 router.get('/', function (req, res) {
